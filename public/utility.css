@@ -1,0 +1,74 @@
+/* Utilities */
+.section-100 {
+  min-height: 100vh;
+}
+
+.section-80 {
+  min-height: 80vh;
+}
+
+.section-50 {
+  min-height: 50vh;
+}
+
+.section-25 {
+  min-height: 25vh;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-monotype {
+  font-family: "David Libre", serif !important;
+}
+
+.font-typeface {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.bg-traditional-dark {
+  background-color: black;
+}
+
+.bg-transparent-50 {
+  background-opacity: 50%;
+}
+
+.form-control-main {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  border: none;
+}
+
+.border-focus-warning:focus {
+  border: solid 1px;
+  border-color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
+  box-shadow: 0 0 0 0.25rem rgba(var(--bs-warning-rgb), 0.25);
+}
+
+/* Medium Screen Query */
+@media screen and (min-width: 768px) {
+  .section-md-0 {
+    min-height: unset;
+  }
+}
+
+/* Large Screen Query */
+@media screen and (min-width: 1200px) {
+  .px-xl-5 {
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
+  }
+}
+
+.btn-main {
+  padding: 1em 5em;
+}
+
+.btn-main-secondary {
+  padding: 1em 3em;
+}
